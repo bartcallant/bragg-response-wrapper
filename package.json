@@ -1,0 +1,40 @@
+{
+    "name": "bragg-wrap-response",
+    "version": "0.0.0",
+    "description": "Wraps every response in an object",
+    "license": "MIT",
+    "repository": "bartcallant/bragg-wrap-response",
+    "author": {
+        "name": "Bart Callant",
+        "email": "bart@callant.net",
+        "url": "github.com/bartcallant"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "scripts": {
+        "test": "clinton && xo && ava"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "bragg",
+        "security",
+        "aws",
+        "lambda",
+        "response",
+        "framework"
+    ],
+    "dependencies": {
+        "is-promise": "^2.1.0"
+    },
+    "devDependencies": {
+        "ava": "*",
+        "clinton": "*",
+        "xo": "*"
+    },
+    "xo": {
+        "esnext": true
+    }
+}
