@@ -1,6 +1,6 @@
 {
     "name": "bragg-wrap-response",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Wraps every response in an object",
     "license": "MIT",
     "repository": "bartcallant/bragg-wrap-response",
